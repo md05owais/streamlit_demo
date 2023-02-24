@@ -3,12 +3,12 @@ import pandas as pd
 import numpy as np
 
 
-# import findspark
-# findspark.init()
-# import pyspark
-# from pyspark.sql import SparkSession
-# spark = SparkSession.builder.master("local[1]").appName("SparkByExamples.com").getOrCreate()
-# from pyspark.ml.classification import RandomForestClassificationModel
+import findspark
+findspark.init()
+import pyspark
+from pyspark.sql import SparkSession
+spark = SparkSession.builder.master("local[1]").appName("SparkByExamples.com").getOrCreate()
+from pyspark.ml.classification import RandomForestClassificationModel
 # importing 
 
 st.title('My first app')
